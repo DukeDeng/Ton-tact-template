@@ -8,7 +8,8 @@ import { SampleTactContract } from "./output/sample_SampleTactContract";
     });
 
     // Parameters
-    let owner = Address.parse("kQBM7QssP28PhrctDOyd47_zpFfDiQvv5V9iXizNopb1d2LB");
+    // let owner = Address.parse("kQBM7QssP28PhrctDOyd47_zpFfDiQvv5V9iXizNopb1d2LB");
+    let owner = Address.parse("0QBVC0o9Z8S2eCf6-nQhEWRScg5Fotw-boObjMDS2zEXg2gU");
     let init = await SampleTactContract.init(owner);
     let contract_address = contractAddress(0, init);
 

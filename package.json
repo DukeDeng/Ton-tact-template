@@ -4,7 +4,8 @@
     "build": "tact --config ./tact.config.json",
     "test": "jest",
     "deploy": "ts-node ./sources/contract.deploy.ts",
-    "read": "ts-node ./sources/contract.read.ts"
+    "read": "ts-node ./sources/contract.read.ts",
+    "write": "ts-node ./sources/contract.write.ts"
   },
   "dependencies": {
     "@tact-lang/compiler": "~1.3.0",
